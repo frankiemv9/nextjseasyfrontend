@@ -16,7 +16,9 @@
 		"incremental": true,
 		"paths": {
 			"@/*": ["./*"],
-			"@/models/*": ["./models"]
+			"@/models/*": ["./models"],
+			"@/api/*": ["./api-client"],
+			"@/utils/*": ["./utils"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
